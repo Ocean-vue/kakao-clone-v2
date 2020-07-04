@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chats | Kakao Clone</title>
     <script src="https://kit.fontawesome.com/a178ae753c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Chats | Kakao Clone</title>
 </head>
 <body>
     <div class="status-bar">
@@ -19,7 +20,7 @@
             <i class="fas fa-battery-full"></i>
         </div>
     </div>
-    <header class-"header">
+    <header class="header">
         <div class="header__header-column">
             <h1 class="header__title">Chats</h1>
         </div>
@@ -39,19 +40,23 @@
         <ul class="chats__list">
             <li class="chats__chat chat">
                 <a href="chat.html">
-                    <div class="chat__column">
-                        <img class="chat_avatar g-avatar" src="images/avatar.jpg">
-                        <div class="chat__content">
-                            <span class="chat__username">
-                                Lynn
-                            </span>
-                            <span class="chat_preview">
-                                Going home
+                    <div class="chats__chat friend friend--lg">
+                        <div class="friend__column">
+                            <img src="images/avatar.jpg" class="m-avatar friend__avatar" />
+                            <div class="friend__content">
+                                <span class="friend__name">
+                                 Lynn
+                                </span>
+                                <span class="friend__bottom-text">
+                                 Going home!
+                                </span>
+                            </div>
+                        </div>
+                        <div class="friend__column">
+                            <span class="chat__timestamp">
+                                March 8
                             </span>
                         </div>
-                    </div>
-                    <div class="chat__column">
-                        <span class="chat__timestamp">Yesterday</span>
                     </div>
                 </a>
             </li>
@@ -66,6 +71,7 @@
             </li>
             <li class="nav__list-item">
                 <a href="index.html" class="nav__list-link">
+                    <div class="nav__badge">8</div>
                     <i class="fas fa-comment"></i>
                 </a>
             </li>
@@ -81,6 +87,9 @@
             </li>
         </ul>
     </nav>
+    <div class="bigScreen">
+        <span class="bigScreen__text">Please make your screen small!</span>
+    </div>
 </body>
 </body>
 </html>
